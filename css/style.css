@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main {
+  display: grid;
+  height: 100vh;
+  background: silver;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 1fr;
+}
+.main .header h1 {
+  font-size: 42px;
+  text-align: center;
+}
+.main .header button {
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100px;
+}
+.main .header button:hover {
+  background: silver;
+}
+.main .header {
+  display: grid;
+  place-items: center;
+}
+
+.main .table {
+  display: grid;
+  justify-content: center;
+}
+.main .table tr th {
+  background: lightseagreen;
+  width: 150px;
+}
+.main .table tr td {
+  text-align: center;
+  padding: 7px;
+}
+.main .table tr td button {
+  width: 100px;
+  cursor: pointer;
+}
+.main .table tr td button:hover {
+  background: silver;
+}
